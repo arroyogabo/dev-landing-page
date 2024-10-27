@@ -1,19 +1,16 @@
-
-import './App.css'
-import Hero from './sections/Hero/Hero'
-import Projects from './sections/Projects/Projects'
-
+import './App.css';
+import Hero from './sections/Hero/Hero';
+import Projects from './sections/Projects/Projects';
+import ShootingStar from './sections/ShootingStar/ShootingStar';
 
 function App() {
-
-  return(
+  return (
     <>
-    <Hero/>
-    <Projects></Projects>
+      <ShootingStar />
+      <Hero />
+      <Projects />
     </>
-  )
-  
-    
+  );
 }
 
-export default App
+export default App;
